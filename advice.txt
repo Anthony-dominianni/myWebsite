@@ -1,0 +1,59 @@
+Sasha, 
+
+Sorry for getting to you so late. I have been busy enrolling in my +1 Master’s program while juggling internship applications and Summer courses, so I haven’t had much free time. 
+
+In the following messages I am going to attempt to introduce the world of Computer Science to you in a step-by-step manner. 
+
+First - some inspiration. Why take the time to study computer science? Personally, if I solve a problem once, I am rarely inclined to ever solve it a second time. If you learn how to program, you can solve very complex problems once (though it may take a VERY long time) and have the program you created do the work for you every time thereafter. If anything, you can spend your remaining time improving your solution, making it more efficient, or collaborating with others. 
+
+Whether you wish to solely answer simple questions like “given a list of items, remove all duplicate items” or solve more complex problems like “When is the optimal time to buy or sell stock X?” you will almost definitely want to create code to help you find answers quickly and precisely. 
+
+So, first ask yourself, what kinds of problems do I want to solve? Are there any repetitive processes in my life that I wish to automate? What do I wish to accomplish with more knowledge in computer science?
+
+If you are just looking to get internships, you will need to understand the basics: Data Structures, Algorithms, and basic Software Design. 
+
+If you are looking to create algorithmic trading software, don’t get your hopes up. This is a complex piece of software that requires a vast amount of computer science knowledge. First you need to define requirements: When do I sell? When do I buy? Then, you have to run thousands of tests on it. After that, you begin back-testing the software’s performance against data for historical accuracy. Where do we get that historical data? In which format is the data represented? How can I get my program to interpret this information? Now, even if you think you’ve created a profitable piece of software, now you have to run it. How do we “host” this script? Is it always running? How “expensive” is it? If its “expensive” or, uses a lot of memory/runs too slow, your program will fail. You are at risk of your program crashing, or at the very best case, performing horribly against much better designed programs on the market. Oh, and we haven’t even talked about protecting your code from hackers. 
+
+Instead, lets start from the ground up and gain a solid understand of the basics. This may be boring in the beginning, but if you get through it, you will be able to build some awesome stuff. You will feel discouraged at points. Don’t let it hamper your motivation.
+
+I am going to treat you as though you know absolutely nothing. If at any point, you think “hey I know this,” I encourage you to move on to the next section. 
+
+Ok, enough with my rambling. Lets learn how to code: 
+
+1. we need to know about the thing we will be coding on: 
+https://www.gcflearnfree.org/computerbasics/ 
+
+There are 19 modules in this “course.” This is VERY basic. Learn the difference between hardware and software, learn about basic troubleshooting techniques, and learn about basic networking ideas (is a server a computer? what does a server do? where does Facebook store its data? what’s “the cloud?) Take the quiz at the end. Definitely look at the extras after the quiz. 
+
+2. Now that we have the vocabulary necessary for a nontrivial conversation, lets start learning: 
+http://cs50.tv/2017/fall/
+
+This is harvard’s free online introduction to computer science. You will learn a lot. Take the entire course. Figure out for yourself how to navigate the material, and look at all the content. Either watch the videos (recommended) or read the notes and look at the slides. Do the assignments, if any. This might take a month to finish, but if you are motivated, maybe sooner. 
+
+3. Ok, now you know a little bit about computer science. You have a basic understanding of algorithms, memory, and data structures. You were exposed to C, Python, SQL, and JavaScript. Now lets choose a language to learn how to build software with: https://mikkegoes.com/14-programming-languages-explained/
+
+I recommend learning how to problem-solve before you learn to build a website, so I’d choose Java, Python, or C++. You’ll need to go to the language’s main website to get the downloadable files. I recommend Java, because it was created with OOD (Object-oriented Design) in mind, which is something you’ll need to eventually learn. 
+
+Download jdk8 (java developmental kit version 8): http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Make sure you explicitly follow installation instructions - its important to make sure that everything is in stored in the right place, or “directory” on your computer. 
+
+A “directory” is literally just a place to store information. For example, your Desktop is a directory. You may have folders on your desktop, which are subdirectories of Desktop. Directories are important to consider when creating software - you need to make sure that all pieces of the software know how to connect with the other pieces, which obviously need to be compartmentalized into different directories for several reasons like readability, and organization during development. 
+
+4. Ok, we’ve chosen a language, now, we need to choose an IDE (Integrated Development Environment) to program in. Lets understand how an IDE works.
+
+Suppose your cousin wants me to follow a set of instructions. He writes a list of rules in Russian, and hands it to me. Its a well-defined list. But I can’t read it. However, you can translate the list to english, and now I can carry out the tasks he defined in the list. The list is your code, the IDE is the translator, and I am the computer. Computers can only interpret data in 0s and 1s, so the IDE “compiles” your code into machine code. The computer follows the 0s and 1s you’ve provided, and performs (or at least attempts to perform) your list of tasks. 
+
+I’d use intellij: https://www.jetbrains.com/idea/
+
+5. Now lets start coding. I really recommend following NEU’s fundies II/OOD curriculum. It’s really hard, and teaches you how to be a beast in Java. If you want to learn online, just look up “Object oriented design in java” and take some online courses. 
+
+6. Okay noob. Now lets learn the command line. It lets you speak to the computer a lot quicker. http://linuxcommand.org/lc3_learning_the_shell.php
+
+If you have a mac, open “Terminal” and follow along. If you have a window, open “cmd” and follow along. 
+
+7. Ok, you know how to code now, or at least you think you do. Learn how we collaborate with others when creating code. We do that through version control: the most popular language is “git”: https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+Read the entire thing. Once you’re done, lets make something cool together.
+
+Ok, this has been a lot. I’m gonna stop here, because you have a lot to learn. Once you get to the end of this note, get back to me, and lets keep learning. 

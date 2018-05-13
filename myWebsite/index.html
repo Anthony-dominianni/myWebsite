@@ -20,10 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">About Me</a>
           </li>
@@ -37,6 +34,8 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a class="btn btn-primary btn-sm" href="#" role="button">Fork Me on Github</a>
       </div>
     </nav>
 
@@ -47,53 +46,75 @@
 
     <!-- jumbotron -->
     <div class="jumbotron">
-      <h1 class="display-4">Hi, I'm Anthony!</h1>
-      <p class="lead">Since you're already here, may I ask why?</p>
-      <hr class="my-4">
-      <p>Like what you see?</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Fork Me on Github</a>
-      </p>
+      <h1 class="display-4 text-center">Hi, I'm Anthony!</h1>
+      <p class="lead text-center">Welcome to my site! There's not much to do here (for now).</p>
+      <p class = "text-center">Considering giving me money? <a href="#">Download my Resume</a></p>
     </div>
 
-    <!-- coursework -->
-    <div class ="container">
-      <div class ="row">
-        <div class = "col"><p><strong>Computer Science</strong></p></div>
-        <div class = "col"><p><strong>Mathematics</strong></p></div>
-      </div>
-      <div class ="row">
-        <div class = "col">Fundamentals I & II</div>
-        <div class = "col">Calc I, II, III</div>
-      </div>
-      <div class = "row">
-        <div class = "col">Object-Oriented Design</div>
-        <div class = "col">Linear Algebra</div>
-      </div>
-      <div class = "row">
-        <div class = "col">Database Design</div>
-        <div class = "col">Differential Equations</div>
-      </div>
-      <div class = "row">
-        <div class = "col">Theory of Computation</div>
-        <div class = "col">Probability & Statistics</div>
-      </div>
-      <div class ="row">
-        <div class ="col-2">Discrete Structures</div>
-      </div>
-      <div class ="row">
-        <div class ="col-2">Logic & Computation</div>
+    <!-- About Me -->
+    <h2 class = "text-center panel-title">
+      <a data-toggle ="collapse" href="#collapse2">About Me</a>
+    </h2>
+      <div id = "collapse2" class ="panel-collapse collapse" style = "margin-bottom: 50px">
+        <div class ="container">
+          <div class = "row">
+            <div class = "col">
+              <p class = "lead text-center"> I am a rising 4th year student in the Northeastern University Honors Program, pursuing a <a href="https://www.ccis.northeastern.edu/program/bsms-combined-major-for-computer-science-and-mathematics/">BS & MS, Computer Science/Mathematics</a>.
+                I expect to obtain my Bachelor's in Computer Science/Mathematics by Fall 2019, and obtain my Master's in Computer Science by Fall 2020. For now, I'm focused on learning as much as I can, whenever I can.
+                I hope to specialize in Machine Learning and Data Analysis, and one day apply these skills to make cutting-edge, personalized educational software. Are you bored yet?</p>
+            </div>
+          </div>
+        </div>
+        <div class ="container">
+          <div class = "row">
+            <div class = "col-2 offset-3">
+              <div class="card" style="width: 10rem;">
+                <img class="card-img-top" src="images/github-logo.png" alt="github-logo">
+                  <div class="card-body">
+                    <a href="https://github.com/Anthony-dominianni" class="card-link">View My Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class = "col-2">
+                <div class="card" style="width: 10rem;">
+                  <img class="card-img-top" src="images/hackerrank-logo.jpg" alt="hackerrank-logo">
+                  <div class="card-body">
+                    <a href="https://www.hackerrank.com/anthony_dominia1" class="card-link">View My Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class = "col-2">
+                <div class="card" style="width: 10rem;">
+                  <img class="card-img-top" src="images/linked-in.png" alt="linked-in">
+                  <div class="card-body">
+                    <a href="https://www.linkedin.com/in/anthony-dominianni-a8a674139/" class="card-link">View My Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Things I know -->
+    <h2 class = "text-center panel-title">
+      <a data-toggle ="collapse" href="#collapse1">Things I Know</a>
+    </h2>
+      <div id = "collapse1" class ="panel-collapse collapse" style = "margin-bottom: 50px">
+        <div class ="container">
+          <div class = "row">
+            <div class = "col">
+              <p class = "lead text-center">On the left you will find a list of courses I have taken during my time at Northeastern. On the right you will find a list of extra-curricular resources I have used to familiarize myself with various technologies.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
-      <h1>More stuff goes here...</h1>
 
+    <!-- Projects -->
+    <h2 class ="text-center">Projects</h2>
 
+    <!-- Contact -->
+    <h2 class ="text-center">Contact</h2>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

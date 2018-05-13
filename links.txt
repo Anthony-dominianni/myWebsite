@@ -1,7 +1,0 @@
-
-
-What is a computer: https://www.gcflearnfree.org/computerbasics/
-The basics of cs: http://cs50.tv/2017/fall/
-Youtube link for beginning: https://www.youtube.com/watch?v=MJGN25zPj_E
-Learning git: https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
-Algo/Data Structures: http://cs170.org/
